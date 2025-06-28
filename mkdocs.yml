@@ -1,0 +1,86 @@
+site_name: Guia de Concursos Angolanos de Programação (AoCPC)
+site_url: https://aocpc-community.github.io/aocpc-guide
+
+repo_url: https://github.com/aocpc-community/aocpc-guide
+repo_name: AoCPC Guide
+
+nav:
+  - Home: index.md
+  - Aprender: guide/aprender.md
+  - Praticar: guide/praticar.md
+  - Dicas: guide/dicas.md
+  - Materiais de Apoio: guide/materiais.md
+  - Comunidade: guide/comunidade.md
+  - Links Diretos: guide/links-aleatorios.md
+  - Ferramentas e Bibliotecas: guide/ferramentas-bibliotecas.md
+  - FAQ: faq.md
+
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: assets/images/aocpc-logo.png
+  favicon: assets/images/aocpc-icon.ico
+  feature:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.instant.prefetch
+    - navigation.footer
+    - content.code.copy  # mostra botão de copiar código
+
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+  palette:
+    # Dark Mode (padrão)
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue
+      accent: deep orange
+
+markdown_extensions:
+  - pymdownx.emoji
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - pymdownx.highlight:
+      anchor_linenums: false
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+      
+extra:
+  social:
+    - icon: simple/facebook
+      link: https://www.facebook.com/AngolaCPC
+    - icon: simple/github
+      link: https://www.linkedin.com/company/aocpc-community
+    - icon: simple/github
+      link: https://github.com/aocpc-community/aocpc-guide
+    - icon: simple/whatsapp
+      link: https://chat.whatsapp.com/Dlr8483llslCeqYZUgx30J
+    - icon: simple/telegram
+      link: https://t.me/+rN4SZheQgiw2Yjk0
+    - icon: simple/youtube
+      link: https://www.youtube.com/@aocpc_community
+
+copyright: Copyright &copy 2025 AoCPC Community
