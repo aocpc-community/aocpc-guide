@@ -13,6 +13,7 @@ nav:
   - Comunidade: guide/comunidade.md
   - Links Diretos: guide/links-aleatorios.md
   - Ferramentas e Bibliotecas: guide/ferramentas-bibliotecas.md
+  - Boas Práticas: guide/boas-praticas.md
   - FAQ: faq.md
 
 theme:

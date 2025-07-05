@@ -1,0 +1,2 @@
+## Código de Conduta
+Endossamos e seguimos integralmente o [Código de Conduta](https://ioinformatics.org/) estabelecido pela Olimpíada Internacional de Informática (IOI). O código oficial está disponível no site da [IOI](https://ioinformatics.org/).
