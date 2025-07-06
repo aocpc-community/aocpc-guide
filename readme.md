@@ -1,6 +1,6 @@
 # Guia de Concursos Angolanos de Programação (AoCPC)
 
-![Website Status](https://img.shields.io/website?url=https%3A%2F%2Faocpc-community.github.io%2Faocpc-guide%2F)](https://aocpc-community.github.io/aocpc-guide/)
+![Website Status](https://img.shields.io/website?url=https%3A%2F%2Faocpc-community.github.io%2Faocpc-guide%2F)(https://aocpc-community.github.io/aocpc-guide/)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/aocpc-community/aocpc-guide)](https://github.com/aocpc-community/aocpc-guide)
 [![GitHub Contributors](https://img.shields.io/github/contributors/aocpc-community/aocpc-guide)](https://github.com/aocpc-community/aocpc-guide/graphs/contributors)
 [![GitHub Stars](https://img.shields.io/github/stars/aocpc-community/aocpc-guide)](https://github.com/aocpc-community/aocpc-guide/stargazers)

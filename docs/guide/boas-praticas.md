@@ -53,3 +53,39 @@
 5. Adapte as melhores práticas ao seu próprio estilo
 
 Lembre-se: O objetivo não é copiar diretamente, mas entender e incorporar os princípios que tornam o código deles eficaz.
+
+## Nomenclaturas communs para certos tópicos
+
+
+## Exemplos de Códigos
+``` cpp title="Set Add Query.cpp"
+    int N, Q;
+    cin >> N >> Q;
+    vector<bool> contains(N, false);
+    vector<int64_t> answers(N, 0);
+    vector<int64_t> size_prefix_sum(Q + 1, 0);
+    vector<int> last_added(N, -1);
+    int size = 0;
+
+    for (int i = 0; i < Q; i++) {
+        int x;
+        cin >> x;
+        x--;
+
+        if (!contains[x]) {
+            contains[x] = true;
+            size++;
+            last_added[x] = i;
+        } else {
+            contains[x] = false;
+            size--;
+            answers[x] += size_prefix_sum[i] - size_prefix_sum[last_added[x]];
+        }
+
+        size_prefix_sum[i + 1] = size_prefix_sum[i] + size;
+    }
+
+    for (int x = 0; x < N; x++)
+        if (contains[x])
+            answers[x] += size_prefix_sum[Q] - size_prefix_sum[last_added[x]];
+```

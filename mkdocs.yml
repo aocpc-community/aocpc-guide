@@ -68,7 +68,7 @@ markdown_extensions:
       use_pygments: true
   - pymdownx.superfences
   - pymdownx.snippets
-      
+  
 extra:
   social:
     - icon: simple/facebook
