@@ -15,8 +15,9 @@
 
 ## Acesso ao Guia
 
-Disponível online em:  
-[aocpc-community.github.io/aocpc-guide/](https://aocpc-community.github.io/aocpc-guide/)
+Disponível online em: [aocpc-community.github.io/aocpc-guide/](https://aocpc-community.github.io/aocpc-guide/)
+
+Seguimos o princípio UBUNTU.
 
 ## Seções Disponíveis
 

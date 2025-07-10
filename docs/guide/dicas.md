@@ -28,6 +28,11 @@
   - Se estiver somando valores grandes (ex: até 10⁹), evite `int` — use `long long`.
   - Overflows silenciosos são uma causa comum de erro em juízes automáticos.
 
+### Aumentando o Tamanho da Stack para Melhorar Desempenho  
+
+- Em alguns cenários, um algoritmo implementado com **Programação Dinâmica (DP)** pode ter uma lógica correta, mas apresentar lentidão excessiva durante a execução local devido a limitações no tamanho da **stack**. Esse problema é comum quando há muitas chamadas recursivas ou estruturas de dados profundas. Para resolver, você pode aumentar manualmente o limite da stack utilizando o comando `ulimit -s unlimited` (no Linux) ou compilar o programa com a flag específica para alocar mais memória, como `g++ your_program.cpp -Wl,--stack,20000000 -o your_program` (no Windows).  
+  - Essas configurações permitem que a stack acomode um volume maior de operações, evitando *stack overflows* e garantindo que o algoritmo retorne o resultado correto dentro do tempo esperado. Ajustes como esses são especialmente úteis em competições de programação ou ao lidar com entradas extensas.
+
 ---
 
 > 💡 Estas dicas são baseadas em erros comuns de participantes em concursos e plataformas como Codeforces, AtCoder e outros.
