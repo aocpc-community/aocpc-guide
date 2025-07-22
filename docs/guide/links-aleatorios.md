@@ -4,6 +4,7 @@
 
 - **[Non-trivial DP Tricks and Techniques - Part 1](https://codeforces.com/blog/entry/47764)**
 - **[Non-trivial DP Tricks and Techniques - Part 2](https://codeforces.com/blog/entry/67679)**
+- **[How to Solve Questions [Dominater Version]](https://codeforces.com/blog/entry/133289)**
 
 ## Advanced Topics
 
