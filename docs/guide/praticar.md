@@ -1,5 +1,6 @@
 ## Contests de Treinos
 Junte-se 1º ao grupo do VJUDGE para ter acesso aos contests:
+[https://vjudge.net/group/aocpc_tc25](https://vjudge.net/group/aocpc_tc25)
 [https://vjudge.net/group/aocpc_tc24](https://vjudge.net/group/aocpc_tc24)
 
 1. Contests da nossa região, criado pelo Problem Setter Moamen Ahmed : [https://codeforces.com/group/Rilx5irOux/blog](https://codeforces.com/group/Rilx5irOux/blog)

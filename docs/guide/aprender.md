@@ -1,3 +1,16 @@
+## Aulas 2025
+
+| #   | Topic                                                | Link                                                                 |
+|-----|------------------------------------------------------|----------------------------------------------------------------------|
+| 00  | Concursos de Programação                   | [https://youtube.com/live/fPxpVi4no7I](https://youtube.com/live/fPxpVi4no7I)         |
+| 01  | Complexidade de Algoritmos     | [https://youtube.com/live/uX0mdrs_xdk](https://youtube.com/live/uX0mdrs_xdk)        |
+| 02  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+| 03  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+| 04  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+| 05  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+| 06  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+| 07  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+
 ## Aulas 2024 (Parte 2)
 
 | #   | Topic                                                | Link                                                                 |
