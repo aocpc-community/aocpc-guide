@@ -17,6 +17,8 @@ Suporte para C++: [https://www.learncpp.com/](https://www.learncpp.com/)
 1. CP Algorithms: [https://cp-algorithms.com/index.html](https://cp-algorithms.com/index.html)
 2. Guia USACO: [https://usaco.guide/](https://usaco.guide/)
 
+## PC^2 Guide
+1. PC^2 Competitive Programming Guide: [https://youtube.com/watch?v=sZs-uFf1HKo&t=914s](https://youtube.com/watch?v=sZs-uFf1HKo&t=914s)
 
 ## Artigos Importantes
 1. Por que estudar Programação Competitiva?: [https://medium.com/@osvaldozamba/por-que-estudar-programa%C3%A7%C3%A3o-competitiva-7a2ccadb30aa](https://medium.com/@osvaldozamba/por-que-estudar-programa%C3%A7%C3%A3o-competitiva-7a2ccadb30aa)

@@ -118,7 +118,7 @@ I never understood lazy propagation in segment trees completely until I taught i
 TL;DR: Prefer collaboration over competition.
 
 --
-t took me 3 years to become a Master on Codeforces. Here are 5 mistakes that I made in my journey which you can avoid to make your CP journey smoother and more efficient.
+It took me 3 years to become a Master on Codeforces. Here are 5 mistakes that I made in my journey which you can avoid to make your CP journey smoother and more efficient.
 
 1. Not focussing on building my foundation in the early days and trying to rush things. For example, I had no idea about the verdicts of online judges like TLE, WA, RE, CE before I started attempting contests on Codeforces and CodeChef.
 
