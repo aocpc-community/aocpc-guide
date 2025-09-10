@@ -1,0 +1,80 @@
+/* Base colors to match USACO theme */
+:root {
+  --color-background: #002147; /* deep blue */
+  --color-background-dark: #00162e;
+  --color-text: #ffffff;
+  --color-primary: #ffcc00; /* gold */
+  --color-link: #ffcc00;
+  --color-link-hover: #ffffff;
+  --color-border: #003366;
+  --font-family-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* General body style */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-sans);
+}
+
+/* Header and Navigation */
+.site-header {
+  background-color: var(--color-background-dark);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.site-title {
+  color: var(--color-primary);
+}
+
+.site-nav {
+  background-color: var(--color-background-dark);
+}
+
+.site-nav a {
+  color: var(--color-primary);
+}
+
+.site-nav a:hover {
+  color: var(--color-link-hover);
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.nav-list, .nav-list-item {
+  background-color: var(--color-background-dark);
+}
+
+.nav-list .nav-list-link {
+  color: var(--color-primary);
+}
+
+.nav-list .nav-list-link:hover {
+  color: var(--color-link-hover);
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #0f1c2e;
+  color: #e0e0e0;
+  font-family: monospace;
+  border-radius: 4px;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--color-background-dark);
+  color: var(--color-text);
+  border-top: 2px solid var(--color-border);
+  padding: 1em 0;
+  text-align: center;
+}
