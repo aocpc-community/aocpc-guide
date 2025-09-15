@@ -5,9 +5,9 @@
 | 00  | Concursos de Programação                   | [https://youtube.com/live/fPxpVi4no7I](https://youtube.com/live/fPxpVi4no7I)         |
 | 01  | Complexidade de Algoritmos     | [https://youtube.com/live/uX0mdrs_xdk](https://youtube.com/live/uX0mdrs_xdk)        |
 | 02  | [Prática] Ordenação e Pesquisa Binária + Operações e Consultas em Arrays   | [https://youtu.be/altpSvwNbUs](https://youtu.be/altpSvwNbUs)        |
-| 03  | Matemática   | [https://www.youtube.com/live/u3zkf9LsEnM?si=_x364OIH18kusNeP](https://www.youtube.com/live/u3zkf9LsEnM?si=_x364OIH18kusNeP)        |
-| 04  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
-| 05  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
+| 03  | Matemática [Prática]   | [https://www.youtube.com/live/u3zkf9LsEnM?si=_x364OIH18kusNeP](https://www.youtube.com/live/u3zkf9LsEnM?si=_x364OIH18kusNeP)        |
+| 04  | Grafos [Prática]   | [https://youtube.com/live/a6LUbD118E8](https://youtube.com/live/a6LUbD118E8?feature=share)        |
+| 05  | Programação Dinâmica   | [https://www.youtube.com/live/qHnUougiq60](https://www.youtube.com/live/qHnUougiq60)        |
 | 06  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
 | 07  | Indisponível   | [https://youtu.be/#](https://youtu.be/#)        |
 
