@@ -34,3 +34,24 @@ Ferramentas para gerar entradas e saídas automáticas para validar algoritmos:
 - 🔧 Útil para validar:
   - Tempo de execução em limites altos
   - Robustez de soluções alternativas (ex: brute force vs otimizada)
+
+
+
+## Sugestão de Setup
+
+### Extensões Recomendadas
+
+- **Competitive Programming Helper (cph)**  
+  [https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
+
+- **Competitive Companion**  
+  [https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl](https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl)
+
+- **C/C++ for Visual Studio Code**  
+  [https://code.visualstudio.com/docs/languages/cpp](https://code.visualstudio.com/docs/languages/cpp)
+
+- **Configuração do MinGW**  
+  [https://code.visualstudio.com/docs/cpp/config-mingw](https://code.visualstudio.com/docs/cpp/config-mingw)
+
+- **Snippets (User Defined Snippets)**  
+  [https://code.visualstudio.com/docs/editing/userdefinedsnippets](https://code.visualstudio.com/docs/editing/userdefinedsnippets)
