@@ -1,0 +1,828 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Priyansh Agarwal">
+      
+      
+        <link rel="canonical" href="https://aocpc-community.github.io/aocpc-guide/guide/dicas-de-resolucao/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/aocpc-icon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Dicas de resolucao - Guia de Concursos Angolanos de Programação (AoCPC)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#post-this-youll-instantly-have-a-different-mindset-when-you-go-for-your-next-actual-contest-do-lemme-know-how-it-goes-once-youve-tried-it" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Guia de Concursos Angolanos de Programação (AoCPC)" class="md-header__button md-logo" aria-label="Guia de Concursos Angolanos de Programação (AoCPC)" data-md-component="logo">
+      
+  <img src="../../assets/images/aocpc-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guia de Concursos Angolanos de Programação (AoCPC)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Dicas de resolucao
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/aocpc-community/aocpc-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AoCPC Guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Guia de Concursos Angolanos de Programação (AoCPC)" class="md-nav__button md-logo" aria-label="Guia de Concursos Angolanos de Programação (AoCPC)" data-md-component="logo">
+      
+  <img src="../../assets/images/aocpc-logo.png" alt="logo">
+
+    </a>
+    Guia de Concursos Angolanos de Programação (AoCPC)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/aocpc-community/aocpc-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AoCPC Guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aprender/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aprender
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../praticar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Praticar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dicas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dicas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../materiais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Materiais de Apoio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comunidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comunidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../links-aleatorios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Links Diretos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ferramentas-bibliotecas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas e Bibliotecas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boas-praticas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Boas Práticas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#post-this-youll-instantly-have-a-different-mindset-when-you-go-for-your-next-actual-contest-do-lemme-know-how-it-goes-once-youve-tried-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post this, you'll instantly have a different mindset when you go for your next actual contest. Do lemme know how it goes once you've tried it.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1350-to-1600-learn-topics-such-as-dynamic-programming-graphs-trees-segment-trees-sparse-tables-etc-which-are-very-useful-for-tackling-the-4th-problem-in-cf-div-2-rounds-and-level-up-to-expert" class="md-nav__link">
+    <span class="md-ellipsis">
+      1350 to 1600 - Learn topics such as Dynamic Programming, Graphs, Trees, Segment Trees, Sparse Tables, etc which are very useful for tackling the 4th problem in CF Div 2 rounds and level up to Expert.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#httpswwwlinkedincompostspriyansh-agarwal_competitiveprogramming-codeforces-debugging-activity-7159248136928923648-tdcqutm_sourceshareutm_mediummember_desktoprcmacoaacp9fy4bwifllzjiwiieecyjxq8hhhn0awy" class="md-nav__link">
+    <span class="md-ellipsis">
+      https://www.linkedin.com/posts/priyansh-agarwal_competitiveprogramming-codeforces-debugging-activity-7159248136928923648-TdcQ?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACp9fY4BwIFLlZJiWIIeecyJxq8hhhn0AwY
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Dicas de resolucao</h1>
+
+<p>Tip for &lt; 1600 rated people. If you're struggling to build accuracy in Codeforces contests and getting too many Wrong Answers on your submissions do this...</p>
+<p>🧠 Mindset shift:
+- Firstly, assume that most solutions that you think are just wrong or not good enough.
+- Do not compare yourself to people who are &gt; 2000 rated who are able to solve A, B, C problems just by intuitive guess-work. It only happens because of their experience.
+- Next, make sure that when you think of a solution, you only code it out when you're absolutely sure. Prove it if you can, or try to disprove it with multiple test cases or arguments. If you can't make a strong argument of it working, do not submit.</p>
+<p>🏋️ Action Plan:
+Before you attempt your next actual contest, attempt 5 virtual contests but with a slight twist. You only get to submit all the problems that you could solve in the 2 hours, in the last 10 minutes of the contest. If any of them fails try to fix it within those 10 minutes. </p>
+<h2 id="post-this-youll-instantly-have-a-different-mindset-when-you-go-for-your-next-actual-contest-do-lemme-know-how-it-goes-once-youve-tried-it">Post this, you'll instantly have a different mindset when you go for your next actual contest. Do lemme know how it goes once you've tried it.<a class="headerlink" href="#post-this-youll-instantly-have-a-different-mindset-when-you-go-for-your-next-actual-contest-do-lemme-know-how-it-goes-once-youve-tried-it" title="Permanent link">&para;</a></h2>
+<p>Here's what you should do if you're in the following rating range on Codeforces.</p>
+<p>900 to 1150 - Learn topics such as Recursion, Bit Manipulation, Number Theory, Prefix Sums, Adhoc Problems, etc which are very useful for tackling the 2nd problem in CF Div 2 rounds and level up to Pupil.</p>
+<p>1150 to 1350 - Learn topics such as Adv Binary Search, 2 Pointers, Adv Number Theory, Greedy Algorithms, String Hashing, Tries, etc which are very useful for tackling the 3rd problem in CF Div 2 rounds and level up to Specialist.</p>
+<h2 id="1350-to-1600-learn-topics-such-as-dynamic-programming-graphs-trees-segment-trees-sparse-tables-etc-which-are-very-useful-for-tackling-the-4th-problem-in-cf-div-2-rounds-and-level-up-to-expert">1350 to 1600 - Learn topics such as Dynamic Programming, Graphs, Trees, Segment Trees, Sparse Tables, etc which are very useful for tackling the 4th problem in CF Div 2 rounds and level up to Expert.<a class="headerlink" href="#1350-to-1600-learn-topics-such-as-dynamic-programming-graphs-trees-segment-trees-sparse-tables-etc-which-are-very-useful-for-tackling-the-4th-problem-in-cf-div-2-rounds-and-level-up-to-expert" title="Permanent link">&para;</a></h2>
+<p>Here are 7 things that you can do to improve your speed in competitive programming. I am not going to ask you to improve your typing speed 🙄</p>
+<ul>
+<li>
+<p>Read the problem statement carefully.
+You don't want to be implementing something unintended. Give special emphasis on constraints to avoid coding a solution that gives you TLE or MLE.</p>
+</li>
+<li>
+<p>Think twice but code just once.
+Make sure your approach is finalised before you start writing any code. Re-thinking an approach is better than testing your wrong approach and finally re-implementing a new approach.</p>
+</li>
+<li>
+<p>Learn about inbuilt data structures and functions.
+Learn about C++ STL as it contains a lot of inbuilt data structures and really efficient functions. Learn about some unconventional but heavily used DS in your programming language like ordered sets in C++</p>
+</li>
+<li>
+<p>Make a CP template.
+Have some pre-written code so that you don't have to do all the boilerplate stuff like importing libraries and defining common functions. Keep those things in your template which you personally use a lot.</p>
+</li>
+<li>
+<p>Set up a debugging flow.
+Debugging is a really challenging task and takes up a lot of time. You can setup a debugging template like this: https://lnkd.in/g5PtPpac for yourself so that you're able to debug your code much faster.</p>
+</li>
+<li>
+<p>Black box the common algorithms.
+Maintain a repository of common algorithms and Data Structures, so that you don't have to implement them from scratch every time. You can setup something like this: https://lnkd.in/g4WNyhZh</p>
+</li>
+<li>
+<p>Modularise your code as much as possible.
+Follow a good coding practice of making functions and breaking the problem into subproblems. This would also help you debug faster.</p>
+</li>
+</ul>
+<p>You can also checkout this playlist of mine on Youtube for more such tips: https://lnkd.in/gtDEaUKD</p>
+<p>hashtag#competitiveprogramming hashtag#codeforces hashtag#debugging hashtag#cptemplate hashtag#datastructures hashtag#algorithms hashtag#codingtests</p>
+<h2 id="httpswwwlinkedincompostspriyansh-agarwal_competitiveprogramming-codeforces-debugging-activity-7159248136928923648-tdcqutm_sourceshareutm_mediummember_desktoprcmacoaacp9fy4bwifllzjiwiieecyjxq8hhhn0awy">https://www.linkedin.com/posts/priyansh-agarwal_competitiveprogramming-codeforces-debugging-activity-7159248136928923648-TdcQ?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACp9fY4BwIFLlZJiWIIeecyJxq8hhhn0AwY<a class="headerlink" href="#httpswwwlinkedincompostspriyansh-agarwal_competitiveprogramming-codeforces-debugging-activity-7159248136928923648-tdcqutm_sourceshareutm_mediummember_desktoprcmacoaacp9fy4bwifllzjiwiieecyjxq8hhhn0awy" title="Permanent link">&para;</a></h2>
+<p>7 obvious ways to perform well in coding contests.</p>
+<p>➡️ Sit through the complete contest, there is no point in quitting in a contest midway because you never know when you might get the right observations for a problem.</p>
+<p>➡️ Use pen and paper to jot down all observations, you can only process limited information in your mind at a time. Writing down your thoughts helps a lot in combining a lot of different observations together.</p>
+<p>➡️ Keep a track of leaderboard, solve problems in decreasing order of accepted solutions. A lot of times, the D problem is easier than C and you would never get to know this unless you see the leaderboard.</p>
+<p>➡️ While you might be tempted to rush in the initial easy problems, always remember that spending extra 10 minutes on a problem is better than getting wrong submission penalties.</p>
+<p>➡️ Sometimes you're completely stuck in your own approach. It is better to take a break in this case and come back with a fresh mind. Personally, I love to take at least one snack break during a contest.</p>
+<p>➡️ When you're stuck on a problem for a very long time and you see there is enough time to try out the next harder problem, at least give it a read. You might find the next problem easier based on your strong and weak topics.</p>
+<p>➡️ Make sure to upsolve. I can't stress upon this enough. A contest isn't over unless you've solved at least one of the unsolved problems after the contest. </p>
+<p>https://www.linkedin.com/posts/priyansh-agarwal_7-obvious-ways-to-perform-well-in-coding-activity-7122572814016012288-7Vak?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACp9fY4BwIFLlZJiWIIeecyJxq8hhhn0AwY</p>
+<hr />
+<p>The real challenge is not coding a Dynamic Programming idea but it is to identify that a problem can be solved using Dynamic Programming. You won't become a better problem solver if you just do topic-wise problem solving. </p>
+<p>Consider this scenario: I provide you with 10 Dynamic Programming problems to solve. Then, I present you with an 11th problem, dropping a hint that it requires DP. Logically, this 11th problem wouldn't be overly challenging. </p>
+<p>However, does this situation truly occur in contests or interviews? Are you informed about the specific topic needed to solve a problem before attempting it? The most challenging part in a contest/interview is to figure out which concept to apply in a problem, actually using that concept is still pretty trivial. </p>
+<p>Hence, rather than solely focusing on solving problems based on specific topics, it is essential to engage in random problem solving as well. A great way to improve your ability to apply the learnt concepts is to attempt contests be it on codeforces, codechef or leetcode.</p>
+<p>Check out the video from the comments to learn about 6 more actionable tips to improve your logic and problem solving skills. </p>
+<p>hashtag#coding hashtag#programming hashtag#competitiveprogramming hashtag#interview hashtag#problemsolving hashtag#logic hashtag#subconsciousmind hashtag#codeforces hashtag#codechef</p>
+<p>https://www.linkedin.com/posts/priyansh-agarwal_coding-programming-competitiveprogramming-activity-7079055223586996225-o8cn?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACp9fY4BwIFLlZJiWIIeecyJxq8hhhn0AwY</p>
+<hr />
+<p>If you're having your summer vacations and planning to up skill in Competitive Programming, here are my 7 tips for you as a Master on Codeforces and ICPC World Finalist...</p>
+<p>In this post, I will assume you're really passionate about CP and with no academic workload, you're ready to double down on your efforts.</p>
+<ol>
+<li>
+<p>No need to go for 5 different websites, pick up one (preferably Codeforces) and attempt ALL the contests on it. Don't forget to upsolve.</p>
+</li>
+<li>
+<p>Identify those topics which you've always struggled with. Set aside a minimum of 1 hour every day to just focus these topics.</p>
+</li>
+<li>
+<p>Think about problems while you are doing other activities like taking a shower or working out. You can code them once you find a computer or come back to your desk.</p>
+</li>
+<li>
+<p>If your rating is X, pick up 40% problems from X rating, another 40% from (X + 100) rating and remaining 20% from (X + 200) rating. </p>
+</li>
+<li>
+<p>Prefer Codeforces blogs over watching Youtube videos as reading involves more active learning. Read blogs of high rated coders on Codeforces.</p>
+</li>
+<li>
+<p>No need to spend hours struggling with a single problem. Set a timer and after 30-40 minutes of thinking, go for the editorial.</p>
+</li>
+<li>
+<p>CP is about creative thinking, spend 6/7 days a week grinding but take a day off to recharge your creativity.</p>
+</li>
+</ol>
+<p>Bonus: It gets lonely after some time. Find 2-3 friends to do CP with you or join some Discord community to stay motivated.</p>
+<hr />
+<p>You don't always have to compete in Competitive Programming. Allow me to break this down for you...</p>
+<ul>
+<li>
+<p>Mindset during and outside contest
+When you're in a contest, you compete against 20k (or more) other coders but when you're outside a contest, these 20k people are not your enemies. There are so many concepts that I had never studied myself but got to know them through some chat or discussions with other coders. Join discord servers, make friends, and help others to get help in return. </p>
+</li>
+<li>
+<p>The prevalent Ratingism
+Yes, you heard that right, Ratingism. How would you feel if you were a 1200 rated coder and some 1900 coder told you, "I only talk to 1600+ people". Bad right? So, why do it yourself? If you have more experience than others, you should be helping and setting a good example. I have seen some experienced people becoming so rude with beginners and it feels really bad.</p>
+</li>
+<li>
+<p>Content creation and Teaching
+I never understood lazy propagation in segment trees completely until I taught it myself at TLE Eliminators. If you know a particular topic or even if you want to strengthen your grip over a topic, you can just teach it to your friends. People like Vivek Gupta, Waqar Ahmad, Luv Kumar, Kartik Arora have made so much content on advanced CP concepts and I have a huge respect for them. You don't get views on such stuff but that's what keeps this community going.</p>
+</li>
+</ul>
+<p>TL;DR: Prefer collaboration over competition.</p>
+<p>--
+It took me 3 years to become a Master on Codeforces. Here are 5 mistakes that I made in my journey which you can avoid to make your CP journey smoother and more efficient.</p>
+<ol>
+<li>
+<p>Not focussing on building my foundation in the early days and trying to rush things. For example, I had no idea about the verdicts of online judges like TLE, WA, RE, CE before I started attempting contests on Codeforces and CodeChef.</p>
+</li>
+<li>
+<p>Being obsessed with problems. I remember spending even 4-5 hours trying to think about certain problems only to realise that there were certain concepts that I had no idea about and it would have been a better idea to just look at the editorial after 30-40 minutes.</p>
+</li>
+<li>
+<p>Not using the black box strategy. CP is more about being creative rather than displaying your implementation skills or your algorithmic-knowledge. You don't necessarily have to know the internal working of every single algorithm before using it in your code.</p>
+</li>
+<li>
+<p>Not making enough use of pen and paper. The human mind is capable of a lot of things but when it comes to CP, you might want to keep it free for some creative thinking rather than trying to remember every single observation you've made in a problem. </p>
+</li>
+<li>
+<p>Not taking breaks. CP is a long journey and if you don't take breaks every now and then, you are only going to find yourself burnt out in a few months. Taking breaks also helps you let go the feeling of demotivation you might have after a phase of bad performances. </p>
+</li>
+</ol>
+<p>In case you would like to listen to me talk about the above 5 points in more detail, you can check out my youtube video from the link in the comments. </p>
+<p>hashtag#competitiveprogramming hashtag#codeforces hashtag#codechef hashtag#algorithms hashtag#datastructures hashtag#journey hashtag#experience hashtag#mistakes hashtag#learning hashtag#problemsolving hashtag#psychology hashtag#strategy</p>
+<hr />
+<p>I have solved 3000+ problems on all DSA/CP platforms combined. Here are 5 non obvious things to keep in mind while solving any DSA or Competitive Programming problem to get the most out of it.</p>
+<ul>
+<li>
+<p>Always prove why your solution works
+This is crucial for greedy and constructive problems. Many people just rely on their intuition to solve problems. It is the worst strategy and only sets you up for failure in the long run. Learn to prove solutions and explain them.</p>
+</li>
+<li>
+<p>Never get obsessed with a problem
+There is a limit to the amount of time you should spend thinking about a problem. Ideally you shouldn't spend over an hour just thinking about the problem without making any progress. Spending a lot of time on coding/debugging is still fine.</p>
+</li>
+<li>
+<p>Do not over optimise
+If a problem requires an O(N) solution, don't be oversmart and try to come up with an O(logN) solution. Firstly, analyse the constraints in a problem and then figure out how much optimisation is required. Understanding time and space complexity is crucial.</p>
+</li>
+<li>
+<p>Read solutions of others. 
+After you get an accepted verdict on a problem, you should look at the codes submitted by other coders, preferably of those people who are more experienced or higher rated than you. This will introduce you to various optimisations and new concepts.</p>
+</li>
+<li>
+<p>Tell yourself you are STUPID more often.
+Most people think that whatever approach they come up with for the first time is the best for a problem. Learn to give up on your own ideas. Think in alternate directions. If it isn't working out for long enough, try something else.</p>
+</li>
+</ul>
+<p>Lastly, don't give up and enjoy the process. If you're doing this to improve your problem solving skills, ultimately you will become a good problem solver so don't take it so seriously and cherish the dopamine boost you get after every green tick.</p>
+<p>hashtag#dsa hashtag#competitiveprogramming hashtag#algorithms hashtag#codeforces hashtag#codechef hashtag#interviewpreparation hashtag#placements hashtag#internships</p>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy 2025 AoCPC Community
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/AngolaCPC" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a9 9 0 0 1 1.141.195v3.325a9 9 0 0 0-.653-.036 27 27 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.7 1.7 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/aocpc-community" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/aocpc-community/aocpc-guide" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://chat.whatsapp.com/Dlr8483llslCeqYZUgx30J" target="_blank" rel="noopener" title="chat.whatsapp.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52s.198-.298.298-.497c.099-.198.05-.371-.025-.52s-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a13 13 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074s2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413s.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.82 11.82 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.9 11.9 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.82 11.82 0 0 0-3.48-8.413"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://t.me/+rN4SZheQgiw2Yjk0" target="_blank" rel="noopener" title="t.me" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm4.962 7.224c.1-.002.321.023.465.14a.5.5 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024q-.159.037-5.061 3.345-.72.495-1.302.48c-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789q.04-.324.893-.663 5.247-2.286 6.998-3.014c3.332-1.386 4.025-1.627 4.476-1.635"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@aocpc_community" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.02 3.02 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.02 3.02 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.02 3.02 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814M9.545 15.568V8.432L15.818 12z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
