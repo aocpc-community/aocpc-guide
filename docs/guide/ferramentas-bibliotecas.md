@@ -71,7 +71,6 @@ Copie e cole em `Configuration > Configure Snippets > Existing Snippets`:
 		"using ll = long long;",
 		"",
 		"using namespace std;",
-		"using namespace atcoder;",
 		"",
 		"#ifndef ONLINE_JUDGE",
 		"#include \"aocpc/all\"",
